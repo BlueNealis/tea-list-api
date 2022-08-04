@@ -15,6 +15,10 @@ app.locals.teas = [ {id: 1, name:'Yunnan Gold', type:'black' , notes:['pepper','
   {id: 9, name:'Rooibos Vanilla Chai' , type:'Chai' , notes:['tangy', 'sweet', 'smooth', 'mellow'] , where:'', how:'Steep at 212° for 7-10 minutes'  },
   {id: 10, name:'Darjeeling', type:'oolong', notes:['floral','dried fruit', 'musk'] , where:'Darjeeling, India', how:' Steep at 212° for 3-4 minutes'  },
   {id: 11, name:'Jade Oolong' , type:'oolong' , notes:['green','floral','fresh', 'clean'], where:'Tung Ting Mountain Taiwan', how: 'Steep at 180° for 3-5 minutes' },
+  {id:12, name:'Chamomile', type:'herbal' , notes:['floral', 'nutty','apple'], where:'Nile River Valley, Egypt', how:'Steep at 212° for 5-10 minutes'},
+  {id:13, name:'Yerba Mate', type:'herbal' , notes:['grass', 'wheat', 'herby'], where:'South America', how:'Steep at 150° for 3-5 minutes'},
+  {id:14, name:'Rooibos', type:'herbal' , notes:['sweet', 'smooth', 'mellow'], where:'South Africa', how:'Steep at 212° for 5 minutes'},
+  {id:15, name:'Pu-Erh', type:'pu-erh', notes:['root', 'earthy'], where:'Yunnan China', how:' Steep at 212° for 3-5 minutes.'},
 ]
 
 app.get('/', (request, response) => {
